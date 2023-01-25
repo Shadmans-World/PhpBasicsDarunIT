@@ -12,7 +12,7 @@
     
         
     </body>
-    <div class="form">
+    <!-- <div class="form">
     <form action="contact.php" method="POST">
         <label>Username</label>
         <input type="text" name="user_name"><br>
@@ -27,7 +27,25 @@
         <input type="submit" value="submit data" name="btn">
 
     </form>
-    </div>
+    </div> -->
+
+    <div class="form">
+        <form action="contact.php" method="POST" enctype="multipart/form-data">
+            <label>Username</label>
+            <input type="text" name="user_name"><br>
+            <br>
+            <label>Email</label>
+            <input type="email" name="email"><br>
+            <br>
+            <label for="">Id</label>
+            <input type="text" name="id"><br>
+            <br>
+            <input type="file" name="upload_img"><br>
+            <br>
+            <input type="submit" value="submit data" name="btn">
+    
+        </form>
+        </div>
     
 </body>
 </html>
